@@ -1,0 +1,7 @@
+pytest>=6.2.0
+pytest-cov
+coverage
+flake8
+detect-secrets
+fastapi
+uvicorn
