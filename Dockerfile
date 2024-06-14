@@ -1,7 +1,7 @@
 FROM python3
 WORKDIR /sample
 COPY requirements.txt/sample .
-COPY sample/sample
+COPY sample/sample .
 RUN pip install -r requirements.txt
 EXPOSE 80
 ENV PYTHONBUFFERED=1
